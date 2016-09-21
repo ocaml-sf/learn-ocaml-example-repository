@@ -10,6 +10,8 @@ This software is still under development, no public announcement has
 been made yet. A demo is available at:
 [http://try.ocamlpro.com/learn-ocaml-demo/].
 
+![status image](https://api.travis-ci.org/OCamlPro/learn-ocaml-repository.svg)
+
 License and copyright
 ---------------------
 
