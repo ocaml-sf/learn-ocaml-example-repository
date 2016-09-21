@@ -1,0 +1,10 @@
+{ "learnocaml_version": "1",
+  "groups":
+  { "imperative-traits":
+    { "title": "Imperative traits",
+      "exercises": [ "mooc-simple-input-output" ] },
+    "data-structures":
+    { "title": "Data Structures",
+      "exercises": [ "mooc-binary-search-trees",
+                     "mooc-trie-data-structure" ] } } }
+
