@@ -37,7 +37,7 @@ The `let` keyword
 -----------------
 
 The other source of confusion for newcomers is the `let` keyword which acts
-differently in the toplevel than in normal OCaml expressions.In the toplevel
+differently in the toplevel than in normal OCaml expressions. In the toplevel
 `let x = 1` binds the name `x` to the integer 1 as seen in `lesson 2` . If
 `x` was already bound to something its previous binding is lost:
 
@@ -45,7 +45,7 @@ differently in the toplevel than in normal OCaml expressions.In the toplevel
 
 The `let` keyword is also used to form an expression in which a name is given
 to some value temporarily, for the evaluation of a subexpression only:
-`let x = 41 in x + 1` The value of `x` is `41` during the evaluation of
+`let x = 41 in x + 1`. The value of `x` is `41` during the evaluation of
 `x + 1` only; the global binding of `x` to `"I am now a string!"` is
 preserved. See what `x` is evaluated to now, and type `next ()` for a little
 practice.
@@ -72,9 +72,9 @@ end:
 Parentheses
 -----------
 
-With regard to grouping expression or enforcing order of evaluation, OCaml
+With regard to grouping expressions or enforcing order of evaluation, OCaml
 syntax is surprisingly easy: you can use pervasively either parentheses or
-`begin` / `end` keywords.Example grouping expressions in an `if` form:
+`begin` / `end` keywords. For example, grouping expressions in an `if` form:
 
     | if 1+2 = 3 then (
     |   print_string "did you knew that?\n" ;
@@ -87,7 +87,7 @@ this often!\):
     | begin 1 + 2 end * 3
 
 Also, as function application takes precedence over infix operators you will
-frequently uses parentheses to make explicit the expected evaluation order,
+frequently use parentheses to make explicit the expected evaluation order,
 as in: `square (1 + 1)` since `square 1+1` would yield `2` . Enter `next ()`
 when you are ready to practice.
 

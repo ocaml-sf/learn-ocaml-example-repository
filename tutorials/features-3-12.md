@@ -6,7 +6,7 @@ Local opens
 
 Since OCaml 3.12, you can locally open a module within an expression, using
 the `let open` syntax. It can be very useful when accessing multiple values
-of a modules, without exposing them elsewhere:
+of a module, without exposing them elsewhere:
 
     | let open List in
     | map fst (map (fun x -> (x,1)) [1;2;3;4])
@@ -14,7 +14,7 @@ of a modules, without exposing them elsewhere:
 Local opens
 -----------
 
-You can also open a module for an expression within parenthesis:
+You can also open a module for an expression within parentheses:
 
     | let int_6L = Int64.(add 1L (sub 7L 2L))
 
