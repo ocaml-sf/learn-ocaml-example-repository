@@ -1,10 +1,15 @@
-Public repository for Learn-OCaml
-=================================
+Example repository for Learn-OCaml
+==================================
 
-This git repository contains the public exercises, tutorials and
+This git repository contains some public exercises, tutorials and
 lessons of the Learn-OCaml Web platform. See
 [https://github.com/OCamlPro/learn-ocaml] for the source of the
 application itself.
+
+This is not the official learn ocaml repository of exercises.
+The official corpus of exercises is private to avoid answers to leak.
+If you are a teacher and you want to use or to contribute to the
+private corpus of exercises. Please contact us!
 
 This software is still under development, no public announcement has
 been made yet. A demo is available at:
