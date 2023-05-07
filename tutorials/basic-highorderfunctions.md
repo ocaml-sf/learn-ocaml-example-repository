@@ -1,5 +1,5 @@
-                                                   Higher-order functions
------------------------------------------------------------------------------------------------------------------------------------------
+Higher-order functions
+
 
 Higher-order functions are functions that take other functions as arguments or return functions as their results. Here is an example of a higher-order function that takes a function `f` and applies it to each element of a list `l`:
 
@@ -83,4 +83,4 @@ let product_l = product l  (* returns 6 *)
 
 Note: `fold_right` is often less efficient than `fold_left` because it processes the list in reverse order. This leads to an excessive stack usage for large lists.
 
----------------------------------------------------------------------------------------------------------------------------------------------
+_____________________________________________________________________________________________________________________________________________
