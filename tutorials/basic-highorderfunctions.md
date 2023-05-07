@@ -1,5 +1,6 @@
-Higher-order functions
+                                            Higher-order functions
 
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 Higher-order functions are functions that take other functions as arguments or return functions as their results. Here is an example of a higher-order function that takes a function `f` and applies it to each element of a list `l`:
 
