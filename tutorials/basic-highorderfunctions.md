@@ -1,5 +1,5 @@
-Higher-order functions
-
+                                                   Higher-order functions
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 Higher-order functions are functions that take other functions as arguments or return functions as their results. Here is an example of a higher-order function that takes a function `f` and applies it to each element of a list `l`:
 
@@ -22,7 +22,7 @@ We can use `map` to apply `square` to each element of a list:
 let l = [1; 2; 3]
 let l_squared = map square l  (* returns [1; 4; 9] *)
 
-_____________________________________________________________________________________________________________________________________________
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 Another example of a higher-order function in OCaml is the `fold_left` function, which takes a function `f`, an initial accumulator value `acc`, and a list `l`, and applies `f` to each element of `l` and the current accumulator value to produce a new accumulator value. Here's an example implementation of `fold_left`:
 
@@ -45,7 +45,7 @@ The `sum` function takes a list `l` as its argument and uses `fold_left` with th
 let l = [1; 2; 3]
 let sum_l = sum l  (* returns 6 *)
 
-_____________________________________________________________________________________________________________________________________________
+------------------------------------------------------------------------------------------------------------------------------------------
 
 `fold_right` is a higher-order function in OCaml that is similar to `fold_left`, but it processes the elements of a list from right to left instead of from left to right.
 
@@ -83,4 +83,4 @@ let product_l = product l  (* returns 6 *)
 
 Note: `fold_right` is often less efficient than `fold_left` because it processes the list in reverse order. This leads to an excessive stack usage for large lists.
 
-_____________________________________________________________________________________________________________________________________________
+---------------------------------------------------------------------------------------------------------------------------------------------
